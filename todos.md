@@ -13,6 +13,13 @@
 1. Create a basic skeleton and make sure it's being served 
 2. Maybe even draw out a sketch on paper
 
+* **HERE!** 
+    * trying to get it to parity with file:///Users/michaelwhittemore/Desktop/repos/html5up-hyperspace/index.html
+    * None of the animations work
+    * put in my favicon at `<link rel="icon" type="image/svg+xml" href="/vite.svg" />` (I have a temporary one to replace the default vite one)
+    1. ~~Let's add back in `is-preload` along with the timer that removes it~~
+    2. Why is the sidecar selector highlighted? 
+
 3. For the template:
     * I think I can get rid of the Sass stuff and all the no script. Also I will only need the index
     * Would like to test the dist if I run build
@@ -24,4 +31,4 @@ Maybe copy some stuff from my resume? I want to have a more casual tone?
 
 http://localhost:4173/ for build preview
 http://localhost:5173/ for dev
-looks like I need to change the style sheet impoort in import main.ts
+looks like I need to change the style sheet import in import main.ts
