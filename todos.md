@@ -16,7 +16,12 @@
 3. For the template:
     * I think I can get rid of the Sass stuff and all the no script. Also I will only need the index
     * Would like to test the dist if I run build
+4. Try deploying on netlify - ideally set up basic CI/CD pipeline
 
 * https://docs.netlify.com/manage/domains/configure-domains/bring-a-domain-to-netlify/
 
 Maybe copy some stuff from my resume? I want to have a more casual tone? 
+
+http://localhost:4173/ for build preview
+http://localhost:5173/ for dev
+looks like I need to change the style sheet impoort in import main.ts

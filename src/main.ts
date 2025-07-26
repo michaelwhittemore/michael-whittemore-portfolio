@@ -1,8 +1,11 @@
 import './style.css'
+import '../templateFiles/main.css'
+
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
+// I WONDER IF THIS WILL OVERWIRTE THE REST OF THE PAGE??
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
