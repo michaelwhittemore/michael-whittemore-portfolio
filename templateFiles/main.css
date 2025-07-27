@@ -3491,7 +3491,7 @@ input, select, textarea {
 
 /* Footer */
 
-	#sidebar + #wrapper + #footer {
+	/* #sidebar + #wrapper + #footer {
 		margin-left: 18em;
 	}
 
@@ -3518,7 +3518,7 @@ input, select, textarea {
 
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;
-	}
+	} */
 
 /* Sidebar */
 
