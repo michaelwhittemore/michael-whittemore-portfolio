@@ -65,7 +65,17 @@ looks like I need to change the style sheet import in import main.ts
         3. Should I be using workers or pages? https://developers.cloudflare.com/workers/static-assets/
         migration-guides/migrate-from-pages/#compatibility-matrix
         4. https://developers.cloudflare.com/workers-ai/get-started/workers-wrangler/. - maybe this isn't right as it uses workers-ai? - maybe https://developers.cloudflare.com/workers/get-started/guide/
-    * If this woks I will need to see about switching to cloudflare as the domain registar, and then still suing GCP for HT
+    * If this woks I will need to see about switching to cloudflare as the domain registar, and then still using GCP for HT
+    * **I can deploy via wrangler cli** `wrangler deploy` works from inside my repo. 
+        * trying to do the same with the build command does not?
+        * looks like I was trying to run it in my repos file and I got a similar failure locally? as opposed to in my VS terminal which was in the right folder. I wonder if this means anything??
+        * hmmm. Try with different asset paths maybe. Maybe `dist` is wrong?? --- is "assets": {
+		"directory": "dist"
+	}, wrong?
+    * maybe the root directory is wrong?
+
+
+
     * I wonder if I should try using an alias for the site??
     * I guess michaelwhittemore.com is my `domain apex`
     * maybe switch to https://pages.cloudflare.com/
