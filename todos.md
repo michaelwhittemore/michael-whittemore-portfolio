@@ -62,7 +62,9 @@ looks like I need to change the style sheet import in import main.ts
         1. Let's try getting my dist deployed to cloudflare pages first
             - Looks like maybe I need to specify the dist?? `npx wrangler deploy --assets=./dist`
         2. https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/
-        3. Should I be using workers or pages? https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/#compatibility-matrix
+        3. Should I be using workers or pages? https://developers.cloudflare.com/workers/static-assets/
+        migration-guides/migrate-from-pages/#compatibility-matrix
+        4. https://developers.cloudflare.com/workers-ai/get-started/workers-wrangler/. - maybe this isn't right as it uses workers-ai? - maybe https://developers.cloudflare.com/workers/get-started/guide/
     * If this woks I will need to see about switching to cloudflare as the domain registar, and then still suing GCP for HT
     * I wonder if I should try using an alias for the site??
     * I guess michaelwhittemore.com is my `domain apex`
