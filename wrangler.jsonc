@@ -7,7 +7,7 @@
 	"name": "michael-whittemore-portfolio",
 	"compatibility_date": "2025-07-26",
 	"assets": {
-		"directory": "/dist"
+		"directory": "dist"
 	},
 	"observability": {
 		"enabled": true
