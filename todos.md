@@ -73,6 +73,7 @@ looks like I need to change the style sheet import in import main.ts
 		"directory": "dist"
 	}, wrong?
     * maybe the root directory is wrong?
+    * Maybe I should try manually passing in all the commands in the build path? I don't like it, but it would be good to see if it works `--assets=./dist` also name and date
 
 
 

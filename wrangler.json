@@ -1,0 +1,11 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "michael-whittemore-portfolio",
+    "compatibility_date": "2025-07-26",
+    "assets": {
+        "directory": "./dist"
+    },
+    "observability": {
+        "enabled": true
+    }
+}
