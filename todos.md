@@ -34,9 +34,10 @@
         - Note this affected by `/#one` (which I will need to rename)
         - See what happens if I disable my JS force scroll and use anchors?
     5. Maybe get rid of the Scrolly stuff?
+        * looks like it may be added programmatically 
     5. ~~Re-add the background image (the crosshatching)~~
         - maybe we want to add it every section and rename it?
-    6. Clean up unsused CSS
+    6. Clean up unusused CSS
         - Scrolly
         - Forms
     7. Add the nice shadow effect to my main name (the one I use in the favicon and in HT)
@@ -55,3 +56,17 @@ Maybe copy some stuff from my resume? I want to have a more casual tone?
 http://localhost:4173/ for build preview `npm run build` & `npm run preview`
 http://localhost:5173/ for dev
 looks like I need to change the style sheet import in import main.ts
+---------------------------------------------------------------------------------------------
+* # Hosting Stuff#
+    * Was trying netlify - maybe I will switch to cloudflare pages
+        1. Let's try getting my dist deployed to cloudflare pages first
+            - Looks like maybe I need to specify the dist?? `npx wrangler deploy --assets=./dist`
+        2. https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/
+        3. Should I be using workers or pages? https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/#compatibility-matrix
+    * If this woks I will need to see about switching to cloudflare as the domain registar, and then still suing GCP for HT
+    * I wonder if I should try using an alias for the site??
+    * I guess michaelwhittemore.com is my `domain apex`
+    * maybe switch to https://pages.cloudflare.com/
+    * https://medium.com/@pablo.delvalle.cr/cloudflare-and-google-cloud-for-hosting-a-static-site-fd2e1a97aa9b
+    * https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/
+
