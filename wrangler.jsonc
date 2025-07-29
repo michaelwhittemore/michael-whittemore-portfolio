@@ -1,4 +1,5 @@
-
+// This file isn't being read by npx wrangler deploy, I have to do it by passing in the arguments to the build settings
+// wrangler deploy --assets=./dist --compatibility-date=2025-07-26 --name=michael-whittemore-portfolio
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "michael-whittemore-portfolio",

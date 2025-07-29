@@ -16,10 +16,11 @@
 2. Maybe even draw out a sketch on paper
     * Sidecar: (will want to reorder these I think)
         - about - This where I will do the most writing - should I rename welcome
+        - selected projects?
         - contact info/links
         - resume
         - experience? maybe part of about
-        - selected projects?
+    * I'd like to only have a single background and not these three different styles. Maybe a line to delineate thing change
 
 * Todos for getting it like the original
     * trying to get it to parity with file:///Users/michaelwhittemore/Desktop/repos/html5up-hyperspace/index.html
@@ -43,6 +44,12 @@
     7. Add the nice shadow effect to my main name (the one I use in the favicon and in HT)
     8. Fix all the font console errors (I don't really need many fonts here)
 
+    * TODOs for actually building it out
+        * update each section title
+        * Note the `style2`. Maybe I just want one style for each?  
+        * Maybe make the crosshatch background float? So it never moves
+
+Should clean up some of my repos (I have several in my repos fodler that I no longer need)
 
 3. For the template:
     * I think I can get rid of the Sass stuff and all the no script. Also I will only need the index
@@ -58,26 +65,26 @@ http://localhost:5173/ for dev
 looks like I need to change the style sheet import in import main.ts
 ---------------------------------------------------------------------------------------------
 * # Hosting Stuff#
-    * Was trying netlify - maybe I will switch to cloudflare pages
+    **HERE!**  
+    * Now that I have cloudflare up and running I should try actually having my site be accessible via my main domain
+        * Currently waiting on transfer of domain. I need the authorization code from IONOS and then I need to go in the cloudflare dashboard https://www.ionos.com/help/domains/domain-transfers/ and https://dash.cloudflare.com/de36e622146e5daea9f12b80ad7d9941/registrar/transfer and https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/
+        * Then I will need to reconfigure the subdomain DNS
+
+
+
+
         1. Let's try getting my dist deployed to cloudflare pages first
             - Looks like maybe I need to specify the dist?? `npx wrangler deploy --assets=./dist`
         2. https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/
-        3. Should I be using workers or pages? https://developers.cloudflare.com/workers/static-assets/
-        migration-guides/migrate-from-pages/#compatibility-matrix
-        4. https://developers.cloudflare.com/workers-ai/get-started/workers-wrangler/. - maybe this isn't right as it uses workers-ai? - maybe https://developers.cloudflare.com/workers/get-started/guide/
+        4. maybe https://developers.cloudflare.com/workers/get-started/guide/
     * If this woks I will need to see about switching to cloudflare as the domain registar, and then still using GCP for HT
     * **I can deploy via wrangler cli** `wrangler deploy` works from inside my repo. 
         * trying to do the same with the build command does not?
-        * looks like I was trying to run it in my repos file and I got a similar failure locally? as opposed to in my VS terminal which was in the right folder. I wonder if this means anything??
-        * hmmm. Try with different asset paths maybe. Maybe `dist` is wrong?? --- is "assets": {
-		"directory": "dist"
-	}, wrong?
-    * maybe the root directory is wrong?
-    * Maybe I should try manually passing in all the commands in the build path? I don't like it, but it would be good to see if it works `--assets=./dist` also name and date
 
+    * **NOTE THAT UNDERSCORE IS WRONG FOR THE DATE** 
+    trying `wrangler deploy --assets=./dist --compatibility_date=2025-07-26 --name=michael-whittemore-portfolio`
+        `--assets=./dist --compatibility-date=2025-07-26 --name=michael-whittemore-portfolio`
 
-
-    * I wonder if I should try using an alias for the site??
     * I guess michaelwhittemore.com is my `domain apex`
     * maybe switch to https://pages.cloudflare.com/
     * https://medium.com/@pablo.delvalle.cr/cloudflare-and-google-cloud-for-hosting-a-static-site-fd2e1a97aa9b
