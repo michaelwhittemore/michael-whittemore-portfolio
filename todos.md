@@ -28,6 +28,25 @@
             - https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
             - I guess I should try both?
         * Replace the projects with a link and an image (should probably get a screenshot). Mention techs used, goals, and something about playing with me
+        * Content sections:
+            1. About
+                - Who I am? (Oakland based developer)
+                - Hobbies (Board games, the gym, metal music)
+                - Personal details (wife and pets)
+            2. Projects
+                - Just HT for the moment
+            3. Experience
+                - Mainly mention Vonage, maybe something about UC Berkeley EECS
+                - Skills section, favorite languages (JS/TS), frameworks
+                - maybe mention something about Nigel
+                - Background in API and telecommunications
+            4. Contact
+                - Add all the links - github, linkedIn, leetCode,(maybe wellfound?)
+                - Look into email address 
+                - Maybe my phone number
+            5. Resume
+                - Just a download button 
+                - Will need to update the asset (maybe mention the up-to-dateness of it?)
 
 Should clean up some of my repos (I have several in my repos folder that I no longer need)
 
