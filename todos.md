@@ -23,6 +23,13 @@
     7. Add the nice shadow effect to my main name (the one I use in the favicon and in HT)
     8. Fix all the font console errors (I don't really need many fonts here)
 
+    * # CSS #
+        * What does `fade-up` actually do?
+        * maybe I should remove or rename `style1`
+        * looks like the greater than symbol (`>`) is the child combinator selector https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+        * looks like `.features section ` is what give 50% width?
+        * Maybe just switch to the pother style for projects? - get rid of the boxes entirely, or add them myself
+
     * TODOs for actually building it out
         * Maybe make the crosshatch background float? So it never moves - either that or add it for each?
             - https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
