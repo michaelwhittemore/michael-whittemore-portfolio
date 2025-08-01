@@ -29,6 +29,12 @@
         * looks like the greater than symbol (`>`) is the child combinator selector https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
         * looks like `.features section ` is what give 50% width?
         * Maybe just switch to the pother style for projects? - get rid of the boxes entirely, or add them myself
+        * I really should add the section line breaks
+        * Need to figure out why `Test` doesn't take take the whole screen? **HERE!** 
+            - looks like the `fullscreen` class is what makes it full screen?
+            - now we want to see where fullscreen gets added in hyperspace
+            - Do we not want to add it for mobile?
+            - Let's add it and see how it looks (also test with mobile)
 
     * TODOs for actually building it out
         * Maybe make the crosshatch background float? So it never moves - either that or add it for each?
