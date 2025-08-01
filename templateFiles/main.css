@@ -3185,9 +3185,13 @@ input, select, textarea {
 			}
 
 /* Wrapper */
-
 	.wrapper {
 		position: relative;
+		background-image: url("../public/crossHatching.svg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top right;
+		background-size: 100% 100%;
 	}
 
 		.wrapper > .inner {
@@ -3225,7 +3229,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
+			/* here! */
 			background-color: #5e42a6;
+			border-bottom: #b74e91;
+			/* border-color: #312450; */
+			border-width: medium;
+			border-style: none none solid none;
 		}
 
 		.wrapper.style1-alt {
@@ -3840,13 +3849,11 @@ input, select, textarea {
 		}
 
 /* about */
-
+		/* here! */
 	#about {
-		background-attachment: fixed;
-		background-image: url("../public/crossHatching.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		/* border-bottom: #b74e91;
+		border-width: medium;
+		border-style: none none solid none; */
 	}
 
 		#about p {

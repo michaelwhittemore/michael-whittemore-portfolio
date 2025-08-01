@@ -25,16 +25,25 @@
 
     * # CSS #
         * What does `fade-up` actually do?
+        * Use purgeCSS, but only once I'm happy with how it looks
         * maybe I should remove or rename `style1`
         * looks like the greater than symbol (`>`) is the child combinator selector https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
         * looks like `.features section ` is what give 50% width?
         * Maybe just switch to the pother style for projects? - get rid of the boxes entirely, or add them myself
         * I really should add the section line breaks
-        * Need to figure out why `Test` doesn't take take the whole screen? **HERE!** 
+        * Need to figure out why `Test` doesn't take take the whole screen? 
             - looks like the `fullscreen` class is what makes it full screen?
             - now we want to see where fullscreen gets added in hyperspace
             - Do we not want to add it for mobile?
             - Let's add it and see how it looks (also test with mobile)
+        * Maybe a line to delineate thing change **HERE!** 
+            - I don't like the default line styling, let's change that
+            - Maybe instead of using an `<hr>` tag, I should just add a bottom border??
+                - all other borders are none excpt for bottom
+            - I like the 0.2em; height maybe?
+            - Can I get it to inherit the background color?
+            - This should be tied to `style1`, not `about`
+        * ~~Move background image to the wrapper?~~
 
     * TODOs for actually building it out
         * Maybe make the crosshatch background float? So it never moves - either that or add it for each?
@@ -42,7 +51,7 @@
             - I guess I should try both?
         * Replace the projects with a link and an image (should probably get a screenshot). Mention techs used, goals, and something about playing with me
         * Content sections:
-            1. About
+            1. About - 
                 - Who I am? (Oakland based developer)
                 - Hobbies (Board games, the gym, metal music)
                 - Personal details (wife and pets)
@@ -54,14 +63,14 @@
                 - maybe mention something about Nigel
                 - Background in API and telecommunications
             4. Contact
-                - Add all the links - github, linkedIn, leetCode,(maybe wellfound?)
+                - Add all the links - github, linkedIn, leetCode, (maybe wellfound?)
                 - Look into email address 
                 - Maybe my phone number
             5. Resume
                 - Just a download button 
                 - Will need to update the asset (maybe mention the up-to-dateness of it?)
 
-Should clean up some of my repos (I have several in my repos folder that I no longer need)
+Should clean up some of my repos (I have several in my repos folder that I no longer need) - I mostly mean locally, but perhaps on GH as well
 
 -------------------------------------------------------------------------
 
@@ -73,7 +82,6 @@ Should clean up some of my repos (I have several in my repos folder that I no lo
 
 ---------------------------------------------------------------------------------------------
 * # Hosting Stuff#
-    **HERE!**  
     * Now that I have cloudflare up and running I should try actually having my site be accessible via my main domain
         * Currently waiting on transfer of domain. I need the authorization code from IONOS and then I need to go in the cloudflare dashboard https://www.ionos.com/help/domains/domain-transfers/ and https://dash.cloudflare.com/de36e622146e5daea9f12b80ad7d9941/registrar/transfer and https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/
         * Then I will need to reconfigure the subdomain DNS
