@@ -39,16 +39,13 @@
         * Maybe a line to delineate thing change **HERE!** 
             - I don't like the default line styling, let's change that
             - Maybe instead of using an `<hr>` tag, I should just add a bottom border??
-                - all other borders are none excpt for bottom
+                - all other borders are none except for bottom
             - I like the 0.2em; height maybe?
             - Can I get it to inherit the background color?
             - This should be tied to `style1`, not `about`
         * ~~Move background image to the wrapper?~~
 
     * TODOs for actually building it out
-        * Maybe make the crosshatch background float? So it never moves - either that or add it for each?
-            - https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment
-            - I guess I should try both?
         * Replace the projects with a link and an image (should probably get a screenshot). Mention techs used, goals, and something about playing with me
         * Content sections:
             1. About - 
