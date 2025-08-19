@@ -2,8 +2,9 @@ For today (8/19)
 * Do the writing in docs
     - ~~about DONE~~
         - still need to fix font to be the same size as everywhere else
-        - let's add some links for SETI, HT, and DI (maybe BGG)
+        - ~~let's add some links for SETI, HT, and DI (maybe BGG)~~
     - projects
+        - add favicons  (my HT icon and the pickaxe emoji)
     - experience & skills
     - contact
     - resume

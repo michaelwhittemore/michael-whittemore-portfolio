@@ -33,9 +33,24 @@
 		<section id="about" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
 				<h1>Hello, I'm Michael Whittemore.</h1>
-				<p> I'm a Bay Area based software developer with five and half years of experience, focused on web and real time video communication. I'm a full stack generalist. My past experience on a small team required me to wear many hats. I've done everything from API design and implementation, to doubling as our team's SDET (both writing automated tests and manually testing across different browsers and devices), to working on our CI/CD pipeline and performing deployments, to working with our backend architect on piping media to our transcription serve, to working on demos and technical documentation for our DevRel team. </p>
+				<p> I'm a Bay Area based software developer with five and half years of experience, focused on web and
+					real time video communication. I'm a full stack generalist. My past experience on a small team
+					required me to wear many hats. I've done everything from API design and implementation, to doubling
+					as our team's SDET (both writing automated tests and manually testing across different browsers and
+					devices), to working on our CI/CD pipeline and performing deployments, to working with our backend
+					architect on piping media to our transcription serve, to working on demos and technical
+					documentation for our DevRel team. </p>
 
-				<p> I'm an East Bay native and I currently live in Oakland, CA with my technical PM wife, our two cats, and our ball python. Some of my non-tech hobbies include live music (primarily metal), boardgames (my recent favorites include <a href="https://boardgamegeek.com/boardgame/418059/seti-search-for-extraterrestrial-intelligence">SETI</a>, <a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">Dune: Imperium</a>, and <a href="https://boardgamegeek.com/boardgame/43015/hansa-teutonica">Hasna Teutonica</a>), and classes at my local gym. Most days I can be found working on my personal projects at my local cafe alongside many a glass of cold brewed coffee. I always love the opportunity to talk about music and games. </p>
+				<p> I'm an East Bay native and I currently live in Oakland, CA with my technical PM wife, our two cats,
+					and our ball python. Some of my non-tech hobbies include live music (primarily metal), boardgames
+					(my recent favorites include <a
+						href="https://boardgamegeek.com/boardgame/418059/seti-search-for-extraterrestrial-intelligence">SETI</a>,
+					<a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">Dune: Imperium</a>, and <a
+						href="https://boardgamegeek.com/boardgame/43015/hansa-teutonica">Hasna Teutonica</a>), and
+					classes at my local gym. Most days I can be found working on my personal projects at my local cafe
+					alongside many a glass of cold brewed coffee. I always love the opportunity to talk about music and
+					games.
+				</p>
 				<ul class="actions">
 					<li><a href="#contact" class="button">Talk to me!</a></li>
 				</ul>
@@ -47,38 +62,60 @@
 		<section id="projects" class="wrapper style1 fullscreen spotlights fade-up">
 			<div class="inner">
 				<h1>Recent Projects</h1>
-				<p>I've taken my layoff as an opportunity to update my skills and work on some personal projects and expand and refresh my technical skills. There's a real joy to be found in starting a greenfield project. I like the accessibility of browser games and they remind me of the glory days of flash based applications. 
+				<p>I've taken my layoff as an opportunity to update my skills and work on some personal projects and
+					expand and refresh my technical skills. There's a real joy to be found in starting a greenfield
+					project. Doing everything from scratch can be slow at times, but I learned a lot and it's very
+					satisfying. I like the accessibility of browser games and they remind me of the glory days of flash
+					based applications.
 				</p>
 				<section>
 					<!-- Here! -->
 					<h3>Hansa Teutonica</h3>
-					<p>Probably a quick summary of what it is (german Euro Style worker placement). What I aimed to
-						achieve (getting
-						back into development, refresh web knowledge, tried to minimize frameworks and tools,
-						learning the full stack).
-						Lessons learned (the value of frameworks (I ended up building some tools for myself), unit
-						testing, issues with building vs refactoring, importance of documentation
-						even for a single dev project, server vs CDN when hosting, value of having a good
-						bootstrapping tool (going from manually
-						building out my express server to using Vite)). Tech stack, including docker and GCR,
-						websockets, express. Something about it being fully
-						functional with plenty of room for UI improvements (something about I built for UI last)
-						I should add the favicon and also a screen shot. Maybe a wikipedia link?? Also single vs
-						multiplayer\
-						Add about how I initially built out single player
-						add about log being handled client side
-						add next steps (like validation of input, currently way too easy to cheat)
-					</p>
+					<p>Hansa Teutonica is a German Euro-style boardgame. Although it features a heavy amount of
+						abstraction, it's surprisingly fast paced and has a substantial amount of player interaction
+						compared to its peers. </p>
+					<p>Although a digital version already exists, I chose to implement HT in browser as I needed a
+						project I felt passionate about after the emotional blow of getting laid off. I chose to work
+						with minimal frameworks and tools and use vanilla JS. The game logic all occurs within the
+						client, the backend was built with node and express and is responsible for orchestrating room
+						creation and player turn messaging. I do all the real time messaging via websockets as I needed
+						bi-directional communication between the server and the client.</p>
+
+					<p>The server is hosted in a docker container on Google Cloud Run. I found GCP to be very powerful,
+						but frustratingly difficult at times. </p>
+
+					<p> I haven't touched it for a few weeks as it's fully functional right now and a complete game can
+						be
+						played either offline or with other players. There's a lot of things that could be worked on if
+						I
+						come back to it in the future. It's not very visually appealing and there's a ton of room for UI
+						improvements as I was more concerned with getting an MVP out before touching the user
+						experience.
+						There's plenty of room for under-the-hood improvements as well, from input validation, to using
+						a
+						CDN and a bundler instead of serving files directly from my server.</p>
+
+
+					<p>I feel this project was quite valuable as a learning experience. I learned a lot about the value of
+					frameworks when working without them; I found myself building my own tools for DOM manipulation that
+					would have been easily available and thoroughly tested if I had been using a framework. I was
+					reminded of the value of documentation for even single dev projects. My single biggest take away is
+					the importance of building with the future in mind to minimize tech debt. I pushed up a lot of hacky
+					code early, and it came back to bite me when refactoring.</p>
+
+					<p>I'm always interested in playing a game with real players! </p>
 					<a href="https://hansa.michaelwhittemore.com" class="button">Try it!</a>
 				</section>
 				<section>
-					// Note that I need more spacing here, it looks like the other example only works because of the image
+					// Note that I need more spacing here, it looks like the other example only works because of the
+					image
 					<!-- Here! -->
-					 <!-- maybe add a pickaxe emoji -->
+					<!-- maybe add a pickaxe emoji -->
 					<h3>Vue Clicker</h3>
 					<p> Simle incremental game build using TypeScript, Vue3, and Vite. Primarily a way of teaching
 						myself Vue.
-						A simple entry in the <a href="https://en.wikipedia.org/wiki/Incremental_game">incremental or idle genre</a>.
+						A simple entry in the <a href="https://en.wikipedia.org/wiki/Incremental_game">incremental or
+							idle genre</a>.
 						Heavily inspired by <a href="https://orteil.dashnet.org/cookieclicker/"> cookie clicker</a>.
 						Single page
 						application that I'm actively working on. Really enjoying Vue's simplicity.
@@ -196,7 +233,7 @@
 				<a href="public/Michael-Whittemore-Resume.pdf"> View my resume in browser</a>
 				<a href="public/Michael-Whittemore-Resume.pdf" download> Download my resume </a>
 			</div>
-			
+
 		</section>
 
 	</div>
