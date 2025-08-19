@@ -1,3 +1,17 @@
+For today (8/19)
+* Do the writing in docs
+    - ~~about DONE~~
+        - still need to fix font to be the same size as everywhere else
+        - let's add some links for SETI, HT, and DI (maybe BGG)
+    - projects
+    - experience & skills
+    - contact
+    - resume
+* For resume need to have the buttons separate
+* Once I have at least an acceptable section deploy and push and update linkedin
+* Should update linkedin as well (like the about section, also skills)
+* Cleaning up CSS would be nice, but not essential, the goal is to be able to present it
+
 
 -------------------------------------
 * **Notes for my content** 
