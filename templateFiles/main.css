@@ -3855,10 +3855,10 @@ input, select, textarea {
 		border-width: medium;
 		border-style: none none solid none; */
 	}
-
+/* 
 		#about p {
 			font-size: 1.25em;
-		}
+		} */
 
 			@media screen and (max-width: 980px) {
 
@@ -3883,3 +3883,10 @@ input, select, textarea {
 			}
 
 		}
+/* ------ Quick hacks ----- */
+#vue-clicker{
+	padding-top: 1.5em;
+}
+.header-image{
+	height: 1.1em;
+}
