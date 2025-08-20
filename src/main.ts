@@ -1,5 +1,4 @@
-import './style.css'
-import '../templateFiles/main.css'
+import './main.css'
 
 window.onload = () => {
     // Load in animations

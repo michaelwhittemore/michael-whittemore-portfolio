@@ -12,6 +12,12 @@
 * Should update linkedin as well (like the about section, also skills)
 * Cleaning up CSS would be nice, but not essential, the goal is to be able to present it
 
+-------
+* **Purge CSS** 
+    * `purgecss --css src/main.css --content src/index.html src/main.ts`
+    purgecss --rejected --css src/main.css --content src/index.html src/main.ts
+    purgecss --css src/main.css --content src/index.html src/main.ts --output testOutput 
+
 
 -------------------------------------
 * **Notes for my content** 

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "purgecss": "^7.0.2",
     "typescript": "~5.8.3",
     "vite": "^7.0.4",
     "wrangler": "^4.26.0"
