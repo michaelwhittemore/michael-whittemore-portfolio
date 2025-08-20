@@ -1,4 +1,3 @@
-For today (8/19)
 * Do the writing in docs
     - ~~about DONE~~
         - ~~still need to fix font to be the same size as everywhere else~~
