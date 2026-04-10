@@ -1081,6 +1081,106 @@ input {
 			}
 
 		}
+/* Hamburger */
+
+#hamburger {
+	display: none;
+}
+
+@media screen and (max-width: 736px) {
+
+	#wrapper {
+		overflow-x: hidden;
+	}
+
+	#hamburger {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 6px;
+		background: #312450;
+		border: none !important;
+		border-radius: 0 !important;
+		cursor: pointer;
+		height: 56px;
+		width: 56px;
+		padding: 0;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 10001;
+	}
+
+	#hamburger span {
+		display: block;
+		width: 26px;
+		height: 2px;
+		background: rgba(255, 255, 255, 0.9);
+		border-radius: 2px;
+		transition: transform 0.25s ease, opacity 0.25s ease;
+	}
+
+	#hamburger.open span:nth-child(1) {
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	#hamburger.open span:nth-child(2) {
+		opacity: 0;
+	}
+
+	#hamburger.open span:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	#sidebar {
+		display: block !important;
+		height: auto !important;
+		max-height: 0;
+		overflow: hidden !important;
+		padding: 0 !important;
+		line-height: normal !important;
+		transition: max-height 0.3s ease;
+		text-align: left !important;
+	}
+
+	#sidebar.open {
+		max-height: 25em;
+		padding: 2em 1.5em !important;
+	}
+
+	#sidebar > .inner {
+		flex-direction: column !important;
+		height: auto !important;
+		line-height: normal !important;
+	}
+
+	#sidebar nav {
+		height: auto !important;
+		line-height: normal !important;
+	}
+
+	#sidebar nav ul {
+		flex-direction: column !important;
+		height: auto !important;
+		line-height: normal !important;
+	}
+
+	#sidebar nav ul li {
+		height: auto !important;
+		line-height: normal !important;
+		margin: 0 !important;
+	}
+
+	#sidebar nav a {
+		height: auto !important;
+		font-size: 0.85em !important;
+		line-height: 1.75 !important;
+		padding: 0.75em 0 !important;
+	}
+
+}
+
 /* ------ Quick hacks ----- */
 #vue-clicker{
 	padding-top: 1.5em;
