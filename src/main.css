@@ -71,7 +71,7 @@ input {
 	}
 
 	body {
-		background: #312450;
+		background: #0d1b2a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -477,7 +477,7 @@ input {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(13, 27, 42, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -630,9 +630,9 @@ input {
 
 		.wrapper.style1 {
 			/* here! */
-			background-color: #5e42a6;
-			border-bottom: #b74e91;
-			/* border-color: #312450; */
+			background-color: #1b2d3e;
+			border-bottom: #00ccaa;
+			/* border-color: #0d1b2a; */
 			border-width: medium;
 			border-style: none none solid none;
 		}
@@ -720,7 +720,7 @@ input {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0d1b2a;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -953,14 +953,14 @@ input {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #0a1520;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #0099cc, #00ccaa);
+				background-image: -webkit-linear-gradient(to right, #0099cc, #00ccaa);
+				background-image: -ms-linear-gradient(to right, #0099cc, #00ccaa);
+				background-image: linear-gradient(to right, #0099cc, #00ccaa);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1041,7 +1041,7 @@ input {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #00ccaa;
 						}
 
 		}
@@ -1116,7 +1116,7 @@ input {
 		justify-content: center;
 		align-items: center;
 		gap: 6px;
-		background: rgba(49, 36, 80, 0.75);
+		background: rgba(13, 27, 42, 0.75);
 		border: none !important;
 		border-radius: 0 !important;
 		cursor: pointer;
