@@ -1081,6 +1081,14 @@ input {
 			}
 
 		}
+/* Resume actions */
+
+.resume-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
 /* Hamburger */
 
 #hamburger {
