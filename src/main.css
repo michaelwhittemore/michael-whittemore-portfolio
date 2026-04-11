@@ -629,12 +629,7 @@ input {
 			}
 
 		.wrapper.style1 {
-			/* here! */
 			background-color: #1b2d3e;
-			border-bottom: #00ccaa;
-			/* border-color: #0d1b2a; */
-			border-width: medium;
-			border-style: none none solid none;
 		}
 
 		.wrapper.fullscreen {
