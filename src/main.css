@@ -1099,7 +1099,7 @@ input {
 		justify-content: center;
 		align-items: center;
 		gap: 6px;
-		background: #312450;
+		background: rgba(49, 36, 80, 0.75);
 		border: none !important;
 		border-radius: 0 !important;
 		cursor: pointer;
@@ -1107,8 +1107,8 @@ input {
 		width: 56px;
 		padding: 0;
 		position: fixed;
-		top: 0;
-		right: 0;
+		top: 8px;
+		right: 8px;
 		z-index: 10001;
 	}
 
