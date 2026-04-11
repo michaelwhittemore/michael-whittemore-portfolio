@@ -1101,6 +1101,15 @@ input {
 		overflow-x: hidden;
 	}
 
+	ul.icons li > a {
+		display: inline-flex;
+		padding: 0.5em;
+	}
+
+	ul.icons li > a .header-image {
+		height: 1.75em;
+	}
+
 	#hamburger {
 		display: flex;
 		flex-direction: column;
