@@ -1122,6 +1122,7 @@ input {
 		top: 8px;
 		right: 8px;
 		z-index: 10001;
+		visibility: visible;
 	}
 
 	#hamburger span {
@@ -1152,13 +1153,16 @@ input {
 		overflow: hidden !important;
 		padding: 0 !important;
 		line-height: normal !important;
-		transition: max-height 0.3s ease;
+		transition: max-height 0.3s ease, visibility 0s linear 0.3s;
 		text-align: left !important;
+		visibility: hidden;
 	}
 
 	#sidebar.open {
 		max-height: 25em;
 		padding: 2em 1.5em !important;
+		transition: max-height 0.3s ease, visibility 0s linear 0s;
+		visibility: visible;
 	}
 
 	#sidebar > .inner {
